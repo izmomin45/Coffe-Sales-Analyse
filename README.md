@@ -8,20 +8,35 @@ Total Columns: 16
 
 ## Column Descriptions:
 TID: Unique identifier for each transaction. [Integer]
+
 Date: The date of the transaction. [Date]
+
 Day: Day of the week the transaction occurred (e.g., Monday). [Text]
+
 Month: Month of the transaction (e.g., Jan, Feb). [Text]
+
 Time: Time the transaction took place. [Time]
+
 Hour: The hour when the transaction occurred. [Integer]
+
 Quantity: Number of items purchased in the transaction. [Integer]
+
 Store_ID: Unique identifier for the store. [Integer]
+
 Store_Location: Location of the store where the transaction took place. [Text]
+
 Prod_ID: Unique identifier for the product. [Integer]
+
 Unit_Price: Price per unit of the product. [Float]
+
 Total_Price: Total price for the items purchased in the transaction. [Float]
+
 Prod_Category: The category of the product (e.g., Coffee, Tea). [Text]
+
 Prod_Type: Specific type of product (e.g., Brewed Coffee, Latte). [Text]
+
 Prod_Details: Further details about the product (e.g., Ethiopia Rg). [Text]
+
 
 # Key Insights
 1]Most Transactions in the Morning: Transactions peak during the morning hours, specifically around 7-9 AM, indicating that coffee sales are highest during morning rush hours.
